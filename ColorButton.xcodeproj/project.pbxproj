@@ -12,6 +12,7 @@
 		047E51B81C608B350091EEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E51B61C608B350091EEA5 /* Main.storyboard */; };
 		047E51BA1C608B350091EEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E51B91C608B350091EEA5 /* Assets.xcassets */; };
 		047E51BD1C608B350091EEA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E51BB1C608B350091EEA5 /* LaunchScreen.storyboard */; };
+		04EBC81D1C7C5FDF007545DE /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC81C1C7C5FDF007545DE /* ColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		047E51B91C608B350091EEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047E51BC1C608B350091EEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047E51BE1C608B350091EEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EBC81C1C7C5FDF007545DE /* ColorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				047E51B21C608B350091EEA5 /* AppDelegate.swift */,
 				047E51B41C608B350091EEA5 /* ViewController.swift */,
+				04EBC81C1C7C5FDF007545DE /* ColorButton.swift */,
 				047E51B61C608B350091EEA5 /* Main.storyboard */,
 				047E51B91C608B350091EEA5 /* Assets.xcassets */,
 				047E51BB1C608B350091EEA5 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EBC81D1C7C5FDF007545DE /* ColorButton.swift in Sources */,
 				047E51B51C608B350091EEA5 /* ViewController.swift in Sources */,
 				047E51B31C608B350091EEA5 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				047E51C31C608B350091EEA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
